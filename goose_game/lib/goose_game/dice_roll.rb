@@ -14,7 +14,7 @@ module GooseGame
     end
 
     def value
-      @roll.inject(:+)
+      roll.inject(:+)
     end
 
     def coerce(other)
